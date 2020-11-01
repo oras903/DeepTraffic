@@ -5,6 +5,7 @@
 # can obtain one at http://mozilla.org/MPL/2.0/.
 # ==============================================================================
 # 以5元组为依据  默认 双向 session  分包，    支持 单向 flow 分包 
+# .\SplitCap -p 100000 -b 100000 -r FTP.pcap  -o  FTP-ALL-L7  -y L7
 
 
 foreach($f in gci 1_Pcap *.pcap)
