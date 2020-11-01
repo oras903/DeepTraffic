@@ -4,6 +4,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file, You
 # can obtain one at http://mozilla.org/MPL/2.0/.
 # ==============================================================================
+# 以5元组为依据  默认 双向 session  分包，    支持 单向 flow 分包 
+
 
 foreach($f in gci 1_Pcap *.pcap)
 {
